@@ -108,8 +108,6 @@ For the implementation details and output interpretation, see [Methodology](docs
 - Recorded sales are not necessarily unconstrained customer demand; simulated shortages are **not measured historical lost sales**.
 - Initial stock, lead times, safety stock, costs and replenishment constraints are illustrative assumptions.
 - The inventory analysis is a deterministic proof of concept, not a live trial or evidence of actual Walmart savings.
-- This experiment uses WAPE on a small subset, **not the official M5 leaderboard metric (WRMSSE)**.
-- No production deployment or real operational impact is claimed.
 
 ## Takeaway
 
