@@ -1,0 +1,49 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data: download separately under applicable source terms
+data/raw/
+data/processed/
+*.parquet
+
+# Local and temporary artifacts
+.stage5a_patch_backups/
+.stage5a_patch_backups*/
+*.log
+*.tmp
+stage5a_*.txt
+apply_stage5a_patches.py
+
+# Generated outputs (selectively publish reviewed aggregate charts/tables)
+outputs/evaluation/
+outputs/figures/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Additional local-only files
+*.zip
+*.sqlite
+*.db
+.ipynb_checkpoints/
+coverage.xml
+.coverage
+htmlcov/
+*.egg-info/
+stage5a_function_definitions.txt
